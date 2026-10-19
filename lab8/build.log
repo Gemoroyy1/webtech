@@ -1,0 +1,130 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< ru.etu.web:lab8 >---------------------------
+[INFO] Building lab8 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ lab8 ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 5 resources from src\main\java to target\classes
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ lab8 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 5 source files to C:\Users\Admin\Documents\ChatGPT\web\lab8\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ lab8 ---
+[INFO] skip non existing resourceDirectory C:\Users\Admin\Documents\ChatGPT\web\lab8\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ lab8 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ lab8 ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- exec:3.5.0:exec (default) @ lab8 ---
+Compiling module ru.etu.web.Order
+   Compiling 1 permutation
+      Compiling permutation 0...
+   Compile of permutations succeeded
+   Compilation succeeded -- 25,739s
+Linking into C:\Users\Admin\Documents\ChatGPT\web\lab8\target\gwt\order
+   Link succeeded
+   Linking succeeded -- 0,704s
+[INFO] 
+[INFO] --- war:3.2.2:war (default-war) @ lab8 ---
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.thoughtworks.xstream.converters.reflection.SunUnsafeReflectionProvider (file:/C:/Users/Admin/Documents/ChatGPT/web/tools/m2/com/thoughtworks/xstream/xstream/1.4.10/xstream-1.4.10.jar)
+WARNING: Please consider reporting this to the maintainers of class com.thoughtworks.xstream.converters.reflection.SunUnsafeReflectionProvider
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[INFO] Packaging webapp
+[INFO] Assembling webapp [lab8] in [C:\Users\Admin\Documents\ChatGPT\web\lab8\target\lab8]
+[INFO] Processing war project
+[INFO] Copying webapp webResources [C:\Users\Admin\Documents\ChatGPT\web\lab8\target/gwt] to [C:\Users\Admin\Documents\ChatGPT\web\lab8\target\lab8]
+[INFO] Copying webapp resources [C:\Users\Admin\Documents\ChatGPT\web\lab8\src\main\webapp]
+[INFO] Webapp assembled in [463 msecs]
+[INFO] Building war: C:\Users\Admin\Documents\ChatGPT\web\lab8\target\lab8.war
+[INFO] 
+[INFO] --- install:3.1.4:install (default-install) @ lab8 ---
+[INFO] Installing C:\Users\Admin\Documents\ChatGPT\web\lab8\pom.xml to C:\Users\Admin\Documents\ChatGPT\web\tools\m2\ru\etu\web\lab8\1.0-SNAPSHOT\lab8-1.0-SNAPSHOT.pom
+[INFO] Installing C:\Users\Admin\Documents\ChatGPT\web\lab8\target\lab8.war to C:\Users\Admin\Documents\ChatGPT\web\tools\m2\ru\etu\web\lab8\1.0-SNAPSHOT\lab8-1.0-SNAPSHOT.war
+[INFO] 
+[INFO] >>> javadoc:3.1.1:javadoc (default-cli) > generate-sources @ lab8 >>>
+[INFO] 
+[INFO] <<< javadoc:3.1.1:javadoc (default-cli) < generate-sources @ lab8 <<<
+[INFO] 
+[INFO] 
+[INFO] --- javadoc:3.1.1:javadoc (default-cli) @ lab8 ---
+[WARNING] Javadoc Warnings
+[WARNING] Loading source files for package ru.etu.web.client...
+[WARNING] Loading source files for package ru.etu.web.server...
+[WARNING] Constructing Javadoc information...
+[WARNING] Building index for all the packages and classes...
+[WARNING] Standard Doclet version 25.0.4.1+1-LTS
+[WARNING] Building tree for all the packages and classes...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab8\target\site\apidocs\ru\etu\web\client\OrderApp.html...
+[WARNING] C:\Users\Admin\Documents\ChatGPT\web\lab8\src\main\java\ru\etu\web\client\OrderApp.java:6: warning: use of default constructor, which does not provide a comment
+[WARNING] public class OrderApp implements EntryPoint {
+[WARNING] ^
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab8\target\site\apidocs\ru\etu\web\server\OrderCalculator.html...
+[WARNING] C:\Users\Admin\Documents\ChatGPT\web\lab8\src\main\java\ru\etu\web\server\OrderCalculator.java:8: warning: no @param for customer
+[WARNING] public BigDecimal calculate(String customer, String quantity, String delivery) {
+[WARNING] ^
+[WARNING] C:\Users\Admin\Documents\ChatGPT\web\lab8\src\main\java\ru\etu\web\server\OrderCalculator.java:8: warning: no @param for quantity
+[WARNING] public BigDecimal calculate(String customer, String quantity, String delivery) {
+[WARNING] ^
+[WARNING] C:\Users\Admin\Documents\ChatGPT\web\lab8\src\main\java\ru\etu\web\server\OrderCalculator.java:8: warning: no @param for delivery
+[WARNING] public BigDecimal calculate(String customer, String quantity, String delivery) {
+[WARNING] ^
+[WARNING] C:\Users\Admin\Documents\ChatGPT\web\lab8\src\main\java\ru\etu\web\server\OrderCalculator.java:8: warning: no @return
+[WARNING] public BigDecimal calculate(String customer, String quantity, String delivery) {
+[WARNING] ^
+[WARNING] C:\Users\Admin\Documents\ChatGPT\web\lab8\src\main\java\ru\etu\web\server\OrderCalculator.java:17: warning: no @param for value
+[WARNING] public static String escape(String value){return value==null?"":value.replace("&","&amp;").replace("<","&lt;").replace(">","&gt;").replace("\"","&quot;").replace("'","&#39;");}
+[WARNING] ^
+[WARNING] C:\Users\Admin\Documents\ChatGPT\web\lab8\src\main\java\ru\etu\web\server\OrderCalculator.java:17: warning: no @return
+[WARNING] public static String escape(String value){return value==null?"":value.replace("&","&amp;").replace("<","&lt;").replace(">","&gt;").replace("\"","&quot;").replace("'","&#39;");}
+[WARNING] ^
+[WARNING] C:\Users\Admin\Documents\ChatGPT\web\lab8\src\main\java\ru\etu\web\server\OrderCalculator.java:4: warning: use of default constructor, which does not provide a comment
+[WARNING] public final class OrderCalculator {
+[WARNING] ^
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab8\target\site\apidocs\ru\etu\web\client\OrderService.html...
+[WARNING] C:\Users\Admin\Documents\ChatGPT\web\lab8\src\main\java\ru\etu\web\client\OrderService.java:5: warning: no comment
+[WARNING] public interface OrderService extends RemoteService { String calculate(String customer,String quantity,String delivery) throws IllegalArgumentException; }
+[WARNING] ^
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab8\target\site\apidocs\ru\etu\web\client\OrderServiceAsync.html...
+[WARNING] C:\Users\Admin\Documents\ChatGPT\web\lab8\src\main\java\ru\etu\web\client\OrderServiceAsync.java:4: warning: no comment
+[WARNING] public interface OrderServiceAsync { void calculate(String customer,String quantity,String delivery,AsyncCallback<String> callback); }
+[WARNING] ^
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab8\target\site\apidocs\ru\etu\web\server\OrderServiceImpl.html...
+[WARNING] C:\Users\Admin\Documents\ChatGPT\web\lab8\src\main\java\ru\etu\web\server\OrderServiceImpl.java:5: warning: use of default constructor, which does not provide a comment
+[WARNING] public class OrderServiceImpl extends RemoteServiceServlet implements OrderService {
+[WARNING] ^
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab8\target\site\apidocs\ru\etu\web\client\package-summary.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab8\target\site\apidocs\ru\etu\web\client\package-tree.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab8\target\site\apidocs\ru\etu\web\server\package-summary.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab8\target\site\apidocs\ru\etu\web\server\package-tree.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab8\target\site\apidocs\serialized-form.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab8\target\site\apidocs\ru\etu\web\client\class-use\OrderApp.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab8\target\site\apidocs\ru\etu\web\client\class-use\OrderService.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab8\target\site\apidocs\ru\etu\web\client\class-use\OrderServiceAsync.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab8\target\site\apidocs\ru\etu\web\server\class-use\OrderCalculator.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab8\target\site\apidocs\ru\etu\web\server\class-use\OrderServiceImpl.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab8\target\site\apidocs\ru\etu\web\client\package-use.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab8\target\site\apidocs\ru\etu\web\server\package-use.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab8\target\site\apidocs\overview-tree.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab8\target\site\apidocs\index.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab8\target\site\apidocs\allclasses-index.html...
+[WARNING] Building index for all classes...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab8\target\site\apidocs\allpackages-index.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab8\target\site\apidocs\index-all.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab8\target\site\apidocs\search.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab8\target\site\apidocs\overview-summary.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab8\target\site\apidocs\help-doc.html...
+[WARNING] 11 warnings
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  38.979 s
+[INFO] Finished at: 2026-10-19T14:04:10+03:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,90 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< ru.etu.web:lab4 >---------------------------
+[INFO] Building lab4 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ lab4 ---
+[INFO] Copying 3 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ lab4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Users\Admin\Documents\ChatGPT\web\lab4\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ lab4 ---
+[INFO] skip non existing resourceDirectory C:\Users\Admin\Documents\ChatGPT\web\lab4\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ lab4 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ lab4 ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- war:3.2.2:war (default-war) @ lab4 ---
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.thoughtworks.xstream.converters.reflection.SunUnsafeReflectionProvider (file:/C:/Users/Admin/Documents/ChatGPT/web/tools/m2/com/thoughtworks/xstream/xstream/1.4.10/xstream-1.4.10.jar)
+WARNING: Please consider reporting this to the maintainers of class com.thoughtworks.xstream.converters.reflection.SunUnsafeReflectionProvider
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[INFO] Packaging webapp
+[INFO] Assembling webapp [lab4] in [C:\Users\Admin\Documents\ChatGPT\web\lab4\target\lab4]
+[INFO] Processing war project
+[INFO] Copying webapp resources [C:\Users\Admin\Documents\ChatGPT\web\lab4\src\main\webapp]
+[INFO] Webapp assembled in [168 msecs]
+[INFO] Building war: C:\Users\Admin\Documents\ChatGPT\web\lab4\target\lab4.war
+[INFO] 
+[INFO] --- install:3.1.4:install (default-install) @ lab4 ---
+[INFO] Installing C:\Users\Admin\Documents\ChatGPT\web\lab4\pom.xml to C:\Users\Admin\Documents\ChatGPT\web\tools\m2\ru\etu\web\lab4\1.0-SNAPSHOT\lab4-1.0-SNAPSHOT.pom
+[INFO] Installing C:\Users\Admin\Documents\ChatGPT\web\lab4\target\lab4.war to C:\Users\Admin\Documents\ChatGPT\web\tools\m2\ru\etu\web\lab4\1.0-SNAPSHOT\lab4-1.0-SNAPSHOT.war
+[INFO] 
+[INFO] >>> javadoc:3.1.1:javadoc (default-cli) > generate-sources @ lab4 >>>
+[INFO] 
+[INFO] <<< javadoc:3.1.1:javadoc (default-cli) < generate-sources @ lab4 <<<
+[INFO] 
+[INFO] 
+[INFO] --- javadoc:3.1.1:javadoc (default-cli) @ lab4 ---
+[WARNING] Javadoc Warnings
+[WARNING] Loading source files for package ru.etu.web...
+[WARNING] Constructing Javadoc information...
+[WARNING] Building index for all the packages and classes...
+[WARNING] Standard Doclet version 25.0.4.1+1-LTS
+[WARNING] Building tree for all the packages and classes...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab4\target\site\apidocs\ru\etu\web\OrderServlet.html...
+[WARNING] C:\Users\Admin\Documents\ChatGPT\web\lab4\src\main\java\ru\etu\web\OrderServlet.java:31: warning: no @param for req
+[WARNING] protected void processRequest(HttpServletRequest req, HttpServletResponse res) throws IOException {
+[WARNING] ^
+[WARNING] C:\Users\Admin\Documents\ChatGPT\web\lab4\src\main\java\ru\etu\web\OrderServlet.java:31: warning: no @param for res
+[WARNING] protected void processRequest(HttpServletRequest req, HttpServletResponse res) throws IOException {
+[WARNING] ^
+[WARNING] C:\Users\Admin\Documents\ChatGPT\web\lab4\src\main\java\ru\etu\web\OrderServlet.java:31: warning: no @throws for java.io.IOException
+[WARNING] protected void processRequest(HttpServletRequest req, HttpServletResponse res) throws IOException {
+[WARNING] ^
+[WARNING] C:\Users\Admin\Documents\ChatGPT\web\lab4\src\main\java\ru\etu\web\OrderServlet.java:13: warning: use of default constructor, which does not provide a comment
+[WARNING] public class OrderServlet extends HttpServlet {
+[WARNING] ^
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab4\target\site\apidocs\ru\etu\web\package-summary.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab4\target\site\apidocs\ru\etu\web\package-tree.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab4\target\site\apidocs\serialized-form.html...
+[WARNING] C:\Users\Admin\Documents\ChatGPT\web\lab4\src\main\java\ru\etu\web\OrderServlet.java:16: warning: no comment
+[WARNING] private BigDecimal deliveryPrice;
+[WARNING] ^
+[WARNING] C:\Users\Admin\Documents\ChatGPT\web\lab4\src\main\java\ru\etu\web\OrderServlet.java:15: warning: no comment
+[WARNING] private BigDecimal unitPrice;
+[WARNING] ^
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab4\target\site\apidocs\ru\etu\web\class-use\OrderServlet.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab4\target\site\apidocs\ru\etu\web\package-use.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab4\target\site\apidocs\overview-tree.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab4\target\site\apidocs\allclasses-index.html...
+[WARNING] Building index for all classes...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab4\target\site\apidocs\allpackages-index.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab4\target\site\apidocs\index-all.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab4\target\site\apidocs\search.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab4\target\site\apidocs\index.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab4\target\site\apidocs\help-doc.html...
+[WARNING] 6 warnings
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.436 s
+[INFO] Finished at: 2026-10-19T12:30:07+03:00
+[INFO] ------------------------------------------------------------------------

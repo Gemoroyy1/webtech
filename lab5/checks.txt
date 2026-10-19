@@ -1,0 +1,5 @@
+pickup: 750.00 OK
+courier: 1050.00 OK
+quantity 0: error JSP HTTP 400 OK
+quantity 1001: error JSP HTTP 400 OK
+quantity abc: error JSP HTTP 400 OK

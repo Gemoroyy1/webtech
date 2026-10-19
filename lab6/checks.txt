@@ -1,0 +1,6 @@
+anonymous: HTTPS 401 OK
+wrong password: HTTPS 401 OK
+wrong role: HTTPS 403 OK
+authorized: HTTPS 200 OK
+authenticated JSP POST: 1050.00 OK
+TLS certificate chain and hostname verified against localhost.crt; verification enabled

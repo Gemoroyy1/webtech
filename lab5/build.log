@@ -1,0 +1,92 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< ru.etu.web:lab5 >---------------------------
+[INFO] Building lab5 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ lab5 ---
+[INFO] skip non existing resourceDirectory C:\Users\Admin\Documents\ChatGPT\web\lab5\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ lab5 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to C:\Users\Admin\Documents\ChatGPT\web\lab5\target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ lab5 ---
+[INFO] skip non existing resourceDirectory C:\Users\Admin\Documents\ChatGPT\web\lab5\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ lab5 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ lab5 ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- war:3.2.2:war (default-war) @ lab5 ---
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.thoughtworks.xstream.converters.reflection.SunUnsafeReflectionProvider (file:/C:/Users/Admin/Documents/ChatGPT/web/tools/m2/com/thoughtworks/xstream/xstream/1.4.10/xstream-1.4.10.jar)
+WARNING: Please consider reporting this to the maintainers of class com.thoughtworks.xstream.converters.reflection.SunUnsafeReflectionProvider
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[INFO] Packaging webapp
+[INFO] Assembling webapp [lab5] in [C:\Users\Admin\Documents\ChatGPT\web\lab5\target\lab5]
+[INFO] Processing war project
+[INFO] Copying webapp resources [C:\Users\Admin\Documents\ChatGPT\web\lab5\src\main\webapp]
+[INFO] Webapp assembled in [50 msecs]
+[INFO] Building war: C:\Users\Admin\Documents\ChatGPT\web\lab5\target\lab5.war
+[INFO] 
+[INFO] --- install:3.1.4:install (default-install) @ lab5 ---
+[INFO] Installing C:\Users\Admin\Documents\ChatGPT\web\lab5\pom.xml to C:\Users\Admin\Documents\ChatGPT\web\tools\m2\ru\etu\web\lab5\1.0-SNAPSHOT\lab5-1.0-SNAPSHOT.pom
+[INFO] Installing C:\Users\Admin\Documents\ChatGPT\web\lab5\target\lab5.war to C:\Users\Admin\Documents\ChatGPT\web\tools\m2\ru\etu\web\lab5\1.0-SNAPSHOT\lab5-1.0-SNAPSHOT.war
+[INFO] 
+[INFO] >>> javadoc:3.1.1:javadoc (default-cli) > generate-sources @ lab5 >>>
+[INFO] 
+[INFO] <<< javadoc:3.1.1:javadoc (default-cli) < generate-sources @ lab5 <<<
+[INFO] 
+[INFO] 
+[INFO] --- javadoc:3.1.1:javadoc (default-cli) @ lab5 ---
+[WARNING] Javadoc Warnings
+[WARNING] Loading source files for package ru.etu.web...
+[WARNING] Constructing Javadoc information...
+[WARNING] Building index for all the packages and classes...
+[WARNING] Standard Doclet version 25.0.4.1+1-LTS
+[WARNING] Building tree for all the packages and classes...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab5\target\site\apidocs\ru\etu\web\OrderCalculator.html...
+[WARNING] C:\Users\Admin\Documents\ChatGPT\web\lab5\src\main\java\ru\etu\web\OrderCalculator.java:8: warning: no @param for customer
+[WARNING] public BigDecimal calculate(String customer, String quantity, String delivery) {
+[WARNING] ^
+[WARNING] C:\Users\Admin\Documents\ChatGPT\web\lab5\src\main\java\ru\etu\web\OrderCalculator.java:8: warning: no @param for quantity
+[WARNING] public BigDecimal calculate(String customer, String quantity, String delivery) {
+[WARNING] ^
+[WARNING] C:\Users\Admin\Documents\ChatGPT\web\lab5\src\main\java\ru\etu\web\OrderCalculator.java:8: warning: no @param for delivery
+[WARNING] public BigDecimal calculate(String customer, String quantity, String delivery) {
+[WARNING] ^
+[WARNING] C:\Users\Admin\Documents\ChatGPT\web\lab5\src\main\java\ru\etu\web\OrderCalculator.java:8: warning: no @return
+[WARNING] public BigDecimal calculate(String customer, String quantity, String delivery) {
+[WARNING] ^
+[WARNING] C:\Users\Admin\Documents\ChatGPT\web\lab5\src\main\java\ru\etu\web\OrderCalculator.java:17: warning: no @param for value
+[WARNING] public static String escape(String value){return value==null?"":value.replace("&","&amp;").replace("<","&lt;").replace(">","&gt;").replace("\"","&quot;").replace("'","&#39;");}
+[WARNING] ^
+[WARNING] C:\Users\Admin\Documents\ChatGPT\web\lab5\src\main\java\ru\etu\web\OrderCalculator.java:17: warning: no @return
+[WARNING] public static String escape(String value){return value==null?"":value.replace("&","&amp;").replace("<","&lt;").replace(">","&gt;").replace("\"","&quot;").replace("'","&#39;");}
+[WARNING] ^
+[WARNING] C:\Users\Admin\Documents\ChatGPT\web\lab5\src\main\java\ru\etu\web\OrderCalculator.java:4: warning: use of default constructor, which does not provide a comment
+[WARNING] public final class OrderCalculator {
+[WARNING] ^
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab5\target\site\apidocs\ru\etu\web\package-summary.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab5\target\site\apidocs\ru\etu\web\package-tree.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab5\target\site\apidocs\ru\etu\web\class-use\OrderCalculator.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab5\target\site\apidocs\ru\etu\web\package-use.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab5\target\site\apidocs\overview-tree.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab5\target\site\apidocs\allclasses-index.html...
+[WARNING] Building index for all classes...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab5\target\site\apidocs\allpackages-index.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab5\target\site\apidocs\index-all.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab5\target\site\apidocs\search.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab5\target\site\apidocs\index.html...
+[WARNING] Generating C:\Users\Admin\Documents\ChatGPT\web\lab5\target\site\apidocs\help-doc.html...
+[WARNING] 7 warnings
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.276 s
+[INFO] Finished at: 2026-10-19T12:55:27+03:00
+[INFO] ------------------------------------------------------------------------

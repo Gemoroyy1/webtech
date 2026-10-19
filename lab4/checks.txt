@@ -1,0 +1,2 @@
+ru: form 200, calculation 1050.00, validation 400 OK
+en: form 200, calculation 1050.00, validation 400 OK

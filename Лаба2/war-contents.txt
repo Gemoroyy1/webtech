@@ -1,0 +1,8 @@
+META-INF/MANIFEST.MF
+META-INF/
+WEB-INF/
+WEB-INF/classes/
+index.jsp
+WEB-INF/web.xml
+META-INF/maven/ru.etu.web/lab2/pom.xml
+META-INF/maven/ru.etu.web/lab2/pom.properties

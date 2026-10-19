@@ -1,0 +1,43 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< ru.etu.web:lab7 >---------------------------
+[INFO] Building lab7 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ lab7 ---
+[INFO] skip non existing resourceDirectory C:\Users\Admin\Documents\ChatGPT\web\lab7\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ lab7 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ lab7 ---
+[INFO] skip non existing resourceDirectory C:\Users\Admin\Documents\ChatGPT\web\lab7\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ lab7 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ lab7 ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- war:3.2.2:war (default-war) @ lab7 ---
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.thoughtworks.xstream.converters.reflection.SunUnsafeReflectionProvider (file:/C:/Users/Admin/Documents/ChatGPT/web/tools/m2/com/thoughtworks/xstream/xstream/1.4.10/xstream-1.4.10.jar)
+WARNING: Please consider reporting this to the maintainers of class com.thoughtworks.xstream.converters.reflection.SunUnsafeReflectionProvider
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+[INFO] Packaging webapp
+[INFO] Assembling webapp [lab7] in [C:\Users\Admin\Documents\ChatGPT\web\lab7\target\lab7]
+[INFO] Processing war project
+[INFO] Copying webapp resources [C:\Users\Admin\Documents\ChatGPT\web\lab7\src\main\webapp]
+[INFO] Webapp assembled in [38 msecs]
+[INFO] Building war: C:\Users\Admin\Documents\ChatGPT\web\lab7\target\lab7.war
+[INFO] 
+[INFO] --- install:3.1.4:install (default-install) @ lab7 ---
+[INFO] Installing C:\Users\Admin\Documents\ChatGPT\web\lab7\pom.xml to C:\Users\Admin\Documents\ChatGPT\web\tools\m2\ru\etu\web\lab7\1.0-SNAPSHOT\lab7-1.0-SNAPSHOT.pom
+[INFO] Installing C:\Users\Admin\Documents\ChatGPT\web\lab7\target\lab7.war to C:\Users\Admin\Documents\ChatGPT\web\tools\m2\ru\etu\web\lab7\1.0-SNAPSHOT\lab7-1.0-SNAPSHOT.war
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.543 s
+[INFO] Finished at: 2026-10-19T13:26:17+03:00
+[INFO] ------------------------------------------------------------------------

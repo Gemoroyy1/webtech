@@ -1,0 +1,36 @@
+Access is denied.
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< ru.etu.web:lab4 >---------------------------
+[INFO] Building lab4 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] >>> javadoc:3.1.1:javadoc (default-cli) > generate-sources @ lab4 >>>
+[INFO] 
+[INFO] <<< javadoc:3.1.1:javadoc (default-cli) < generate-sources @ lab4 <<<
+[INFO] 
+[INFO] 
+[INFO] --- javadoc:3.1.1:javadoc (default-cli) @ lab4 ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.120 s
+[INFO] Finished at: 2026-10-19T12:25:55+03:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-javadoc-plugin:3.1.1:javadoc (default-cli) on project lab4: An error has occurred in Javadoc report generation: 
+[ERROR] Exit code: 1 - Loading source files for package ru.etu.web...
+[ERROR] Constructing Javadoc information...
+[ERROR] error: Destination directory not writable: C:\Users\Admin\Documents\ChatGPT\web\tools\lab4-docs\apidocs
+[ERROR] 1 error
+[ERROR] 
+[ERROR] Command line was: C:\Users\Admin\Documents\ChatGPT\web\tools\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_25.0.4.v20260826-0822\jre\bin\javadoc.exe @options @packages
+[ERROR] 
+[ERROR] Refer to the generated Javadoc files in 'C:\Users\Admin\Documents\ChatGPT\web\tools\lab4-docs\apidocs' dir.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

@@ -1,0 +1,7 @@
+<!doctype html><html lang="ru"><meta charset="UTF-8"><title>Расчёт заказа</title>
+<body><h1>Расчёт стоимости заказа</h1><p>Товар: блокнот. Цена и стоимость доставки задаются в конфигурации сервлета.</p>
+<form action="order" method="post">
+<p><label>Имя покупателя <input name="customer" required maxlength="80"></label></p>
+<p><label>Количество <input name="quantity" type="number" min="1" max="1000" value="1" required></label></p>
+<p><label>Получение <select name="delivery"><option value="pickup">Самовывоз</option><option value="courier">Курьер</option></select></label></p>
+<button type="submit">Рассчитать</button></form></body></html>

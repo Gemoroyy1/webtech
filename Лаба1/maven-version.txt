@@ -1,0 +1,5 @@
+Apache Maven 3.9.16 (2bdd9fddda4b155ebf8000e807eb73fd829a51d5)
+Maven home: C:\Users\Admin\Documents\ChatGPT\web\tools\apache-maven-3.9.16
+Java version: 25.0.4.1, vendor: Eclipse Adoptium, runtime: C:\Users\Admin\Documents\ChatGPT\web\tools\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_25.0.4.v20260826-0822\jre
+Default locale: ru_RU, platform encoding: UTF-8
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"

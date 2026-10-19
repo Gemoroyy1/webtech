@@ -1,0 +1,1 @@
+Tomcat launched from Eclipse: HTTP 404 at / (default workspace deployment contains no ROOT application). Server response identifies Apache Tomcat/9.0.123. Successful start and stop verified in Eclipse console.

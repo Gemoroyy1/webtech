@@ -1,0 +1,98 @@
+окт. 19, 2026 7:05:17 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Имя версии сервера:    Apache Tomcat/9.0.123
+окт. 19, 2026 7:05:18 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Сервер собран:         Oct 6 2026 18:59:20 UTC
+окт. 19, 2026 7:05:18 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Номер версии сервера:  9.0.123.0
+окт. 19, 2026 7:05:18 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 11
+окт. 19, 2026 7:05:18 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Версия ОС:             10.0
+окт. 19, 2026 7:05:18 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Архитектура:           amd64
+окт. 19, 2026 7:05:18 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Users\Admin\Documents\ChatGPT\web\tools\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_25.0.4.v20260826-0822\jre
+окт. 19, 2026 7:05:18 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Версия JVM:            25.0.4.1+1-LTS
+окт. 19, 2026 7:05:18 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Производитель JVM:     Eclipse Adoptium
+окт. 19, 2026 7:05:18 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\Users\Admin\Documents\ChatGPT\web\tools\apache-tomcat-9.0.123
+окт. 19, 2026 7:05:18 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\Users\Admin\Documents\ChatGPT\web\tools\apache-tomcat-9.0.123
+окт. 19, 2026 7:05:18 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\Users\Admin\Documents\ChatGPT\web\tools\apache-tomcat-9.0.123
+окт. 19, 2026 7:05:18 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\Users\Admin\Documents\ChatGPT\web\tools\apache-tomcat-9.0.123
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by org.apache.tomcat.jni.Library in an unnamed module (file:/C:/Users/Admin/Documents/ChatGPT/web/tools/apache-tomcat-9.0.123/lib/tomcat-jni.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+окт. 19, 2026 7:05:18 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Users\Admin\Documents\ChatGPT\web\tools\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_25.0.4.v20260826-0822\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\WindowsApps\OpenAI.CodexPrimaryRuntime.v26-1007-641-0_26.1007.641.0_x64__3k8sg7r9htsxt\dependencies\native\powershell;C:\Users\Admin\.codex\tmp\arg0\codex-arg0L1y8Ry;C:\Program Files\WindowsApps\OpenAI.CodexPrimaryRuntime.v26-1007-641-0_26.1007.641.0_x64__3k8sg7r9htsxt\dependencies\native\powershell;C:\Program Files\WindowsApps\OpenAI.CodexPrimaryRuntime.v26-1007-641-0_26.1007.641.0_x64__3k8sg7r9htsxt\dependencies\native\libheif\libheif\bin;C:\Program Files\WindowsApps\OpenAI.CodexPrimaryRuntime.v26-1007-641-0_26.1007.641.0_x64__3k8sg7r9htsxt\dependencies\native\jxrlib\jxrlib\bin;C:\Program Files\WindowsApps\OpenAI.CodexPrimaryRuntime.v26-1007-641-0_26.1007.641.0_x64__3k8sg7r9htsxt\dependencies\native\poppler\Library\bin;C:\Program Files\WindowsApps\OpenAI.CodexPrimaryRuntime.v26-1007-641-0_26.1007.641.0_x64__3k8sg7r9htsxt\dependencies\bin\override;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\AmneziaWG\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;C:\altera\13.0sp1\modelsim_ase\win32aloem;C:\Users\Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\ucrt64\bin;C:\Program Files\JetBrains\RustRover 2025.3.5\bin;C:\Users\Admin\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm 2026.1\bin;C:\Users\Admin\AppData\Local\Python\bin;C:\Program Files\WindowsApps\OpenAI.CodexPrimaryRuntime.v26-1007-641-0_26.1007.641.0_x64__3k8sg7r9htsxt\dependencies\bin\fallback;C:\Program Files\WindowsApps\OpenAI.CodexPrimaryRuntime.v26-1007-641-0_26.1007.641.0_x64__3k8sg7r9htsxt\dependencies\node\bin;C:\Program Files\WindowsApps\OpenAI.CodexPrimaryRuntime.v26-1007-641-0_26.1007.641.0_x64__3k8sg7r9htsxt\dependencies\native\git\cmd;C:\Users\Admin\AppData\Local\OpenAI\Codex\bin\77fbd4d52e601e0a;C:\Users\Admin\AppData\Local\OpenAI\Codex\bin\9614f1d9b40d9c4f;.]
+окт. 19, 2026 7:05:18 AM org.apache.coyote.AbstractProtocol init
+INFO: Инициализация ProtocolHandler ["http-nio-127.0.0.1-8080"]
+окт. 19, 2026 7:05:18 AM org.apache.catalina.util.LifecycleBase handleSubClassException
+SEVERE: Ошибка инициализации компонента [Connector["http-nio-127.0.0.1-8080"]]
+org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:1300)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:128)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:543)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:128)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:991)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:128)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:809)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:841)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:484)
+Caused by: java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:522)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:335)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:297)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:526)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:410)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:2004)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:2022)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:993)
+	at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:93)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:1298)
+	... 11 more
+
+окт. 19, 2026 7:05:18 AM org.apache.catalina.startup.Catalina load
+INFO: Server initialization in [513] milliseconds
+окт. 19, 2026 7:05:18 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+окт. 19, 2026 7:05:18 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.123]
+окт. 19, 2026 7:05:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [C:\Users\Admin\Documents\ChatGPT\web\tools\apache-tomcat-9.0.123\webapps\docs]
+окт. 19, 2026 7:05:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\Admin\Documents\ChatGPT\web\tools\apache-tomcat-9.0.123\webapps\docs] has finished in [253] ms
+окт. 19, 2026 7:05:18 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [C:\Users\Admin\Documents\ChatGPT\web\tools\apache-tomcat-9.0.123\webapps\examples]
+окт. 19, 2026 7:05:19 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+окт. 19, 2026 7:05:19 AM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+окт. 19, 2026 7:05:19 AM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('StockTicker', 'async.Stockticker@34a97744')
+окт. 19, 2026 7:05:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\Admin\Documents\ChatGPT\web\tools\apache-tomcat-9.0.123\webapps\examples] has finished in [1 277] ms
+окт. 19, 2026 7:05:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [C:\Users\Admin\Documents\ChatGPT\web\tools\apache-tomcat-9.0.123\webapps\host-manager]
+окт. 19, 2026 7:05:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\Admin\Documents\ChatGPT\web\tools\apache-tomcat-9.0.123\webapps\host-manager] has finished in [43] ms
+окт. 19, 2026 7:05:19 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [C:\Users\Admin\Documents\ChatGPT\web\tools\apache-tomcat-9.0.123\webapps\manager]
+окт. 19, 2026 7:05:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\Admin\Documents\ChatGPT\web\tools\apache-tomcat-9.0.123\webapps\manager] has finished in [51] ms
+окт. 19, 2026 7:05:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Установка веб приложения в папку [C:\Users\Admin\Documents\ChatGPT\web\tools\apache-tomcat-9.0.123\webapps\ROOT]
+окт. 19, 2026 7:05:20 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\Admin\Documents\ChatGPT\web\tools\apache-tomcat-9.0.123\webapps\ROOT] has finished in [36] ms
+окт. 19, 2026 7:05:20 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in [1718] milliseconds

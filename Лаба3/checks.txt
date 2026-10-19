@@ -1,0 +1,7 @@
+Form: HTTP 200
+Get courier: 1050.00 OK
+Post courier: 1050.00 OK
+Invalid quantity 0: HTTP 400 OK
+Invalid quantity 1001: HTTP 400 OK
+Invalid quantity abc: HTTP 400 OK
+Pickup: 500.00; HTML escaping: OK

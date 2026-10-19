@@ -1,0 +1,23 @@
+# Local development tools and generated build directories
+/tools/
+/downloads/
+/workspace/
+/tmp/
+/local/
+**/target/
+**/__pycache__/
+*.py[cod]
+~$*.docx
+# Final screenshots are published once in /screenshots/.
+/Лаба1/screenshots/
+/Лаба2/lab2/screenshots/
+/lab4/screenshots/
+/lab5/screenshots/
+/lab6/screenshots/
+/lab7/screenshots/
+/lab8/screenshots/
+# Keep actual deliverables in output/reports; omit other transient exports.
+/output/*
+!/output/reports/
+/output/reports/*
+!/output/reports/*.docx

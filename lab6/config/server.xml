@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Server port="18006" shutdown="SHUTDOWN">
+  <Listener className="org.apache.catalina.startup.VersionLoggerListener"/>
+  
+  
+  <Listener className="org.apache.catalina.core.AprLifecycleListener"/>
+  
+  
+  
+  <Listener className="org.apache.catalina.core.JreMemoryLeakPreventionListener"/>
+  <Listener className="org.apache.catalina.mbeans.GlobalResourcesLifecycleListener"/>
+  <Listener className="org.apache.catalina.core.ThreadLocalLeakPreventionListener"/>
+
+  
+  <GlobalNamingResources>
+    
+    <Resource name="UserDatabase" auth="Container" type="org.apache.catalina.UserDatabase" description="User database that can be updated and saved" factory="org.apache.catalina.users.MemoryUserDatabaseFactory" pathname="conf/tomcat-users.xml"/>
+  </GlobalNamingResources>
+
+  
+  <Service name="Catalina">
+
+    
+    
+
+
+    
+    <Engine name="Catalina" defaultHost="localhost">
+
+      
+      
+
+      
+      <Realm className="org.apache.catalina.realm.LockOutRealm">
+        
+        <Realm className="org.apache.catalina.realm.UserDatabaseRealm" resourceName="UserDatabase"/>
+      </Realm>
+
+      <Host name="localhost" appBase="webapps" unpackWARs="true" autoDeploy="true">
+
+        
+        
+
+        
+        <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" prefix="localhost_access_log" suffix=".txt" pattern="%h %l %u %t &quot;%r&quot; %s %b"/>
+
+      </Host>
+    </Engine>
+  <Connector port="8086" address="127.0.0.1" protocol="HTTP/1.1" redirectPort="8446" useBodyEncodingForURI="true"/><Connector port="8446" address="127.0.0.1" protocol="org.apache.coyote.http11.Http11NioProtocol" SSLEnabled="true" scheme="https" secure="true" useBodyEncodingForURI="true"><SSLHostConfig protocols="TLSv1.2,TLSv1.3"><Certificate certificateKeystoreFile="${catalina.base}/conf/localhost.p12" certificateKeystorePassword="78BAXzk66ZuWPyNF5pr017oW" certificateKeystoreType="PKCS12" type="RSA"/></SSLHostConfig></Connector></Service>
+</Server>

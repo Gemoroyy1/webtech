@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tomcat-users><role rolename="order-user" /><role rolename="guest" /><user username="student" password="0cYyENyccQMFh92NQBBxj7Ad" roles="order-user" /><user username="guest" password="EIaCdHFvFxgz0EkytKfdrxR9" roles="guest" /></tomcat-users>

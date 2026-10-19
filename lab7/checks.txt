@@ -1,0 +1,5 @@
+Two POST requests: counter 1 -> 2 OK
+Cookie name/color replaced OK
+UTF-8 names OK
+Previous visit populated OK
+Cookie path /lab7 OK
